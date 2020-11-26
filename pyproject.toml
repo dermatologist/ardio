@@ -2,7 +2,23 @@
 name = "ardio"
 version = "0.1.0"
 description = "Journal article to Audio Book"
-authors = ["beapen <github@gulfdoctor.net>"]
+authors = ["Bell Eapen <github@gulfdoctor.net>"]
+
+readme = 'README.md'  # Markdown files are supported
+
+repository = "https://github.com/dermatologist/ardio"
+homepage = "https://github.com/dermatologist/ardio"
+
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.5",
+	"Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -11,6 +27,9 @@ gTTS = "^1.1.4"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.5.4"
+
+[tool.poetry.scripts]
+ardio = "ardio.ardio:main_routine"
 
 [build-system]
 requires = ["poetry>=0.12"]
