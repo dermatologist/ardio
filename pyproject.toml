@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ardio"
-version = "0.1.0"
+version = "1.0.0"
 description = "Journal article to Audio Book"
 authors = ["Bell Eapen <github@gulfdoctor.net>"]
 
