@@ -1,4 +1,8 @@
 {
+    "licenser.author": "Bell Eapen",
+    "licenser.projectName": "Ardio",
+    "licenser.license": "MIT",
+    "licenser.useSingleLineStyle": false,
     "cSpell.words": [
         "ardio",
         "gtts"
