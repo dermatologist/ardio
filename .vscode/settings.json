@@ -5,6 +5,7 @@
     "licenser.useSingleLineStyle": false,
     "cSpell.words": [
         "ardio",
-        "gtts"
+        "gtts",
+        "nuchange"
     ]
 }

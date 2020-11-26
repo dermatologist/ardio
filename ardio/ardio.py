@@ -1,3 +1,10 @@
+"""
+ Copyright (c) 2020 Bell Eapen
+
+ This software is released under the MIT License.
+ https://opensource.org/licenses/MIT
+"""
+
 import sys
 import re
 import operator
@@ -12,7 +19,7 @@ def main_routine():
         process_args(sys.argv[1], sys.argv[2])
 
 def process_args(inputfile: str, outputfile: str):
-    FINAL_OUTPUT = ""
+    FINAL_OUTPUT = "Created with Ardio by Bell Eapen at nuchange.com. "
     print('{0} is the input and {1} is output'.format(inputfile, outputfile))
     common_font_size = get_common_font_size(inputfile)
     for page_layout in extract_pages(inputfile):
