@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ardio"
-version = "1.0.0"
-description = "Journal article to Audio Book"
+version = "1.1.0"
+description = "Journal article to audio book"
 authors = ["Bell Eapen <github@gulfdoctor.net>"]
 
 readme = 'README.md'  # Markdown files are supported
@@ -14,8 +14,6 @@ classifiers = [
     "Development Status :: 4 - Beta",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.5",
-	"Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
     "Topic :: Scientific/Engineering :: Information Analysis"
 ]

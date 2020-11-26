@@ -63,7 +63,7 @@ def get_common_font_size(inputfile: str):
 
 def remove_all_but_alpabets(input: str):
     regex = re.compile('[\(\)\[\]0-9]')
-    return regex.sub('', input)
+    return regex.sub('', input).replace("\n", " ").replace("- ", "")
 
 
 if __name__ == "__main__":
